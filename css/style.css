@@ -19,7 +19,7 @@ body{
 	-webkit-text-size-adjust:100%;
 	overflow-x: hidden;
 	color: #000;
-	background: #dadada;
+	background: #ffffff;
 }
 
 a{
@@ -215,7 +215,7 @@ section h2 span {
 		position: fixed;
 		top: 0;
 		right: 4%;
-		background: #dadada;
+		background: #ffffff;
 	}
 	
   a#menu{
@@ -314,7 +314,7 @@ section h2 span {
 		position: relative;
 		width: 100%;
 		height: 60px;
-		background: #dadada;
+		background: #ffffff;
 		border-bottom: 1px solid #ccc;
 	}
 	
@@ -405,7 +405,7 @@ section h2 span {
 
 	#mainnav ul{
 		border-bottom: 1px solid #ccc;
-		background: #dadada;
+		background: #ffffff;
 		text-align: left;
 	}
 
