@@ -63,6 +63,10 @@ img{
 	height: auto;
 }
 
+#mainImg{
+	text-align:center;
+}
+
 section{
   clear: both;
 }
@@ -204,7 +208,6 @@ section h2 span {
 	
 	#content{
 		width: 80%;
-		text-align: center;
 	}
 	
 	#sidebar{
