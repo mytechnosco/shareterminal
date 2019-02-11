@@ -150,6 +150,7 @@ section h2 span {
 	}
 	
 	#sns li{
+		display: inline-block;
 		padding-right: 10px;
 	}
 
@@ -290,6 +291,7 @@ section h2 span {
 	}
 
 	#nav_main ul{
+		display: inline-block;
 		border-bottom: 1px solid #ccc;
 		background: #ffffff;
 		text-align: left;
