@@ -70,6 +70,7 @@ img{
 }
 
 #solutions{
+		margin-top:50px;
 		list-style-type:circle;
 		margin-left:150px;
 		position: relative;
