@@ -69,6 +69,15 @@ img{
 	margin-left:150px;
 }
 
+#solutions{
+		list-style-type:circle;
+		width: 70%;
+		margin-left:150px;
+		position: relative;
+		padding: 15px 10px 0;
+		border: 0;
+	}
+
 /* RESPONSIVE 設定
 ------------------------------------------------------------*/
 
@@ -274,14 +283,6 @@ img{
 	}
 	#nav_main #sns li a{
 		display: inline-block;
-		position: relative;
-		padding: 15px 10px 0;
-		border: 0;
-	}
-	#solutions{
-		list-style-type:circle;
-		width: 70%;
-		margin-left:150px;
 		position: relative;
 		padding: 15px 10px 0;
 		border: 0;
