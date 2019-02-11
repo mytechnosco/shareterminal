@@ -313,14 +313,12 @@ section h2 span {
 
 	#nav_main li a{
 		position: relative;
-		display: block;
 		padding: 15px 25px;
 		border-bottom: 1px solid #ccc;
 		color: #000;
 		font-weight: 400;
 	}
 	#nav_main li a:before{
-		display: block;
 		content: "";
 		position: absolute;
 		top: 50%;
