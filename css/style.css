@@ -98,10 +98,9 @@ section h2 span {
 	border-bottom: 1px solid #a0a0a0;
 }
 
-.innerS{
+.sentence{
 	width: 60%;
-	margin: 0 auto;
-	padding-bottom: 80px;
+	padding: 0px 30px 80px 30px;
 }
 
 /* RESPONSIVE 設定
@@ -174,7 +173,7 @@ section h2 span {
 @media only screen and (max-width: 640px){
 	.sentence{
 		width: 94%;
-		margin: 0px 30px 30px 30px;
+		padding-bottom: 30px;
 	}
 	#gallery li{
 		float: none;
