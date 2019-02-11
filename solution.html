@@ -13,7 +13,11 @@
 <body id="top">
 	<div id="wrapper">
 
-		<?php include(dirname(__FILE__).'sidebar.html'); ?>
+		<script type="text/javascript">
+        	$(function(){
+            	$("#wrapper").load("./common/sidebar.html");
+        	})
+		</script>
 
 		<div id="content">
 			<!-- MESSAGE -->
