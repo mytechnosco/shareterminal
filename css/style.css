@@ -279,6 +279,7 @@ img{
 		border: 0;
 	}
 	#solutions{
+		list-style-type:circle;
 		position: relative;
 		padding: 15px 10px 0;
 		border: 0;
