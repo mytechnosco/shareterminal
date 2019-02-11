@@ -13,7 +13,11 @@
 <body id="top">
 	<div id="wrapper">
 
-  		<link rel="import" href="sidebar.html">
+		<script type="text/javascript">
+        	$(function(){
+            	$("#sidebar").load("./sidebar.html");
+        	})
+		</script>
 
 		<div id="content">
 			<p id="mainImg"><img src="images/Mytechnos_Logo.jpg" alt=""></p>
