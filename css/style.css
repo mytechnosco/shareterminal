@@ -334,21 +334,14 @@ section h2 span {
 		transform: rotate(45deg);
 	}
 	#nav_main #sns li{
-		display: inline-block;
 	}
 	#nav_main #sns li a{
 		position: relative;
-		display: inline-block;
 		padding: 15px 10px 0;
 		border: 0;
 	}
 	#nav_main #sns li a:before{
 		border: 0;
-	}
-	.col4 li{
-		margin: 0 auto 50px;
-		display: block;
-		text-align: center;
 	}
 	section h2{
 		margin: 55px auto;
