@@ -42,7 +42,6 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 	color: #000;
 }
 
-
 /* フッター
 ------------------------------------------------------------*/
 #footer{
@@ -51,7 +50,6 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 	text-align: center;
 	font-size: 12px;
 }
-
 
 /* 共通
 ------------------------------------------------------------*/
@@ -66,36 +64,9 @@ img{
 	text-align:center;
 }
 
-section{
-  clear: both;
-}
-
-section h2{
-	width: 60%;
-	margin: 70px auto;
-	font-size: 22px;
-	font-weight:normal;
-	text-align: center;
-}
-
-section h2 span {
-	padding-bottom: 20px;
-	border-bottom: 3px solid #000;
-}
-
-.inner{
-	width: 80%;
-	margin: 0 auto;
-	padding-bottom: 50px;
-}
-
-#sec03 .inner, #sec04 .inner{
-	border-bottom: 1px solid #a0a0a0;
-}
-
 .sentence{
 	width: 60%;
-	padding: 0px 30px 30px 30px;
+	padding: 0px 0px 30px 30px;
 }
 
 /* RESPONSIVE 設定
