@@ -250,7 +250,7 @@ section h2 span {
   	transition: .2s;
 	}
 
-	#menuBtn:before, #menuBtn:after{
+	#Btn_menu:before, #Btn_menu:after{
   	display: block;
   	content: "";
   	position: absolute;
@@ -262,11 +262,11 @@ section h2 span {
   	transition: .3s;
 	}
 
-	#menuBtn:before{
+	#Btn_menu:before{
   	margin-top: -7px;
 	}
 
-	#menuBtn:after{
+	#Btn_menu:after{
   	margin-top: 5px;
 	}
 
@@ -298,20 +298,20 @@ section h2 span {
 		z-index: 100;
 	}
 
-	#mainnav{
+	#nav_main{
 		position: absolute;
 		top: 0;
 		width: 100%;
 		text-align: right;
 	}
 
-	#mainnav ul{
+	#nav_main ul{
 		border-bottom: 1px solid #ccc;
 		background: #ffffff;
 		text-align: left;
 	}
 
-	#mainnav li a{
+	#nav_main li a{
 		position: relative;
 		display: block;
 		padding: 15px 25px;
@@ -319,7 +319,7 @@ section h2 span {
 		color: #000;
 		font-weight: 400;
 	}
-	#mainnav li a:before{
+	#nav_main li a:before{
 		display: block;
 		content: "";
 		position: absolute;
@@ -333,16 +333,16 @@ section h2 span {
 		-webkit-transform: rotate(45deg);
 		transform: rotate(45deg);
 	}
-	#mainnav #sns li{
+	#nav_main #sns li{
 		display: inline-block;
 	}
-	#mainnav #sns li a{
+	#nav_main #sns li a{
 		position: relative;
 		display: inline-block;
 		padding: 15px 10px 0;
 		border: 0;
 	}
-	#mainnav #sns li a:before{
+	#nav_main #sns li a:before{
 		border: 0;
 	}
 	.col4 li{
