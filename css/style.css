@@ -150,26 +150,11 @@ section h2 span {
 	}
 	
 	#sns li{
-		display: inline-block;
 		padding-right: 10px;
 	}
 
 	#sns a:hover img{
 		opacity: .8;
-	}
-	
-	/* SEC03 BRAND
-	-----------------*/
-	.col4{
-		text-align: center;
-	}
-
-	.col4 li{
-		display: inline-block;
-		width: 18%;
-		padding: 0 3%;
-		vertical-align: top;
-		text-align: left;
 	}
 	
 	#map iframe{
@@ -231,7 +216,6 @@ section h2 span {
 	}
 	
   a#menu{
-  	display: inline-block;
   	position: relative;
   	width: 40px;
   	height: 40px;
