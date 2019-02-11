@@ -319,6 +319,7 @@ section h2 span {
 		display: inline-block;
 	}
 	#nav_main #sns li a{
+		display: inline-block;
 		position: relative;
 		padding: 15px 10px 0;
 		border: 0;
