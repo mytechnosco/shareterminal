@@ -141,19 +141,6 @@ img{
 		width: 94%;
 		padding-bottom: 30px;
 	}
-	#gallery li{
-		float: none;
-		width: 100%;
-	}
-	.article img{
-		float: none;
-		display: block;
-		margin: 0 auto 20px;
-	}
-	#map iframe{
-		width: 96% !important;
-		left: 2%;
-	}
 }
 
 @media only screen and (max-width: 799px){
@@ -287,6 +274,11 @@ img{
 	}
 	#nav_main #sns li a{
 		display: inline-block;
+		position: relative;
+		padding: 15px 10px 0;
+		border: 0;
+	}
+	#solutions{
 		position: relative;
 		padding: 15px 10px 0;
 		border: 0;
