@@ -280,6 +280,8 @@ img{
 	}
 	#solutions{
 		list-style-type:circle;
+		width: 70%;
+		margin-left:150px;
 		position: relative;
 		padding: 15px 10px 0;
 		border: 0;
