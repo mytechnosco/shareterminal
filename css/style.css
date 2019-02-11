@@ -71,11 +71,14 @@ img{
 
 #solutions{
 		list-style-type:circle;
-		width: 70%;
 		margin-left:150px;
 		position: relative;
-		padding: 15px 10px 0;
 		border: 0;
+	}
+	
+#solutions li{
+		font: 16px
+		padding-bottom:10px;
 	}
 
 /* RESPONSIVE 設定
