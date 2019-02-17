@@ -35,6 +35,13 @@ a:hover, .active{
 
 a:active, a:focus,input:active, input:focus{outline:0;}
 
+.panel li{
+	font-size: 16px;
+	font-family : Meiryo UI;
+	padding-top:1vh;
+	padding-bottom:1vh;
+	
+}
 
 /* ヘッダー
 ------------------------------------------------------------*/
@@ -48,7 +55,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 	clear: both;
 	text-align: center;
 	font-size: 10px;
-	margin-left:120px;
+	margin-left:1vw;
 }
 
 /* 共通
@@ -59,32 +66,33 @@ img{
 }
 
 #mainImg{
-	margin-top:50px;
+	margin-top:2.5vh;
 	margin-bottom:20px;
-	text-align:center;
+	margin-left:5vw;
 }
 
-.sentence{
-	width: 70%;
-	margin-left:150px;
+#content, #sentence{
+	width:60vw;
+	margin-left:10vw;
+	border-right: 3px dotted #b0c4de;
+	padding: 2vw;
 }
 
 #solutions{
-		margin-top:50px;
+		margin-top:5vh;
 		list-style-type:square;
-		margin-left:150px;
 		position: relative;
 		border: 0;
 	}
 	
 #solutions li{
 		font-size:16px;
-		padding-top:16px;
-		padding-bottom:4px;
+		padding-top:4vh;
+		padding-bottom:0.5vh;
 	}
 	
 #contact{
-		padding-top:4px;
+		padding-top:1vh;
 }	
 
 /* RESPONSIVE 設定
@@ -95,16 +103,8 @@ img{
 		font-size:14px;
 	}
 	
-	#wrapper{
-		width: 100%;
-	}
-	
-	#content{
-		width: 80%;
-	}
-	
 	#sidebar{
-		width: 12%;
+		width: 18vw;
 		position: fixed;
 		top: 0;
 		right: 4%;
@@ -124,7 +124,6 @@ img{
 	}
 
 	#mainnav li{
-		font-size: 14px;
 		padding: 10px 0;
 	}
 	
@@ -150,17 +149,6 @@ img{
 	}
 }
 
-
-@media only screen and (min-width: 641px){
-}
-
-@media only screen and (max-width: 640px){
-	.sentence{
-		width: 94%;
-		padding-bottom: 30px;
-	}
-}
-
 @media only screen and (max-width: 799px){
 	#sidebar{
 		position: fixed;
@@ -170,20 +158,9 @@ img{
 	
 	#wrap_sidebar{
 		position: relative;
-		width: 100%;
-		height: 60px;
+		width: 25vw;
 		background: #ffffff;
 		border-bottom: 1px solid #ccc;
-	}
-	
-	#sidebar h1{
-		text-align: center;
-		padding-top: 15px;
-	}
-	
-	#sidebar h1 img{
-		width: auto !important;
-		max-height: 25px;
 	}
 	
   a#menu{
